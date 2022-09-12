@@ -9,6 +9,20 @@
    - localhost:(port listed by server)/api/weather?sid=USC00338552
    - localhost:(port listed by server)/api/weather
 
-The other routes have not yet been implemented.
-Filtering by date and pagination have not yet been implemented.
+List of routes and their parameters:
+
+   - /api/weather
+     - sid=\[station ID\]
+     - date=\[date as YYYY-MM-DD\]
+     - page=\[page number\]
+     - pagesize=\[results per page \(default 25\)\]
+   - /api/yield
+     - year=\[four digit year\]
+   - /api/weather/stats
+     - sid=\[station ID\]
+     - year=\[four digit year\]
+     - page=\[page number\]
+     - pagesize=\[results per page \(default 25\)\]
+ 
+   
 
