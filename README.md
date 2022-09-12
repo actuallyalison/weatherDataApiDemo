@@ -24,5 +24,8 @@ List of routes and their parameters:
      - page=\[page number\]
      - pagesize=\[results per page \(default 25\)\]
  
-   
+## Dependencies (all installable via pip)
 
+- flask 
+- sqlalchemy
+- sqlalchemy.orm
